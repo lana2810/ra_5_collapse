@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Collapse from "./Collapse";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Collapse>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+        nesciunt placeat magnam nihil! Soluta quam unde illum commodi. Pariatur
+        est maxime veniam ea earum ipsum nesciunt magnam corporis, rem eum saepe
+        in illo adipisci explicabo dolorem non autem. Aperiam, itaque?
+      </p>
+    </Collapse>
   );
 }
 
